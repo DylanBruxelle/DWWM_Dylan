@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+  
+}
+.container{
+    height: 1300px;
+    margin: 150px;
+
+}
+.orange{
+    height: 25vh;
+    background-color: orange;
+}
+.grisjbv{
+display: flex;
+padding-top: 30px;
+row-gap: 30px;
+}
+.gris{
+    display: flex;
+
+    flex: 1;
+    height: 52vh;
+    background-color: grey;
+    margin-right: 45px;
+}
+.jbv{
+    display: flex;
+    
+    flex-flow: wrap column;
+    row-gap: 30px;
+}
+.jaune{
+    display: flex;
+    background-color:rgb(221, 221, 31);
+    height: 15vh; 
+    width: 500px;
+}
+.bleu{
+    display: flex;
+    background-color: rgb(13, 71, 196);
+    height: 15vh; 
+    width: 500px;
+}
+.vert{
+    display: flex;
+    background-color: rgb(50, 196, 13);
+    height: 14vh; 
+    width: 500px;
+    row-gap: 30px;
+}
+.vertf{
+    height: 1203px;
+   margin-top: 30px;
+    width: 1000px;
+
+}
+.vertfo{
+    display: flex;
+    background-color: rgb(43, 99, 29);
+    height: 14vh; 
+    width: 667px;
+
+}
